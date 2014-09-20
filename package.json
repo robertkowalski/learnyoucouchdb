@@ -1,0 +1,18 @@
+{
+  "name": "learnyoucouchdb",
+  "version": "1.0.0",
+  "description": "Learn you CouchDB for great good!",
+  "author": "Robert Kowalski <rok@kowalski.gd>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertkowalski/learnyoucouchdb.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.42.0",
+    "workshopper": "^1.0.0",
+    "workshopper-exercise": "^0.2.2"
+  },
+  "bin": "./learnyoucouchdb.js",
+  "preferGlobal": true
+}
