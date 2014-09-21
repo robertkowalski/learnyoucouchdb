@@ -10,6 +10,8 @@
 **learnyoucouchdb** will run through a series of CouchDB workshops. Creating databases, documents,
 views and much more are parts of learnyoucouchdb.
 
+![](learnyoucouchdb.png)
+
 ### Contributors
 
 <b><code>learnyoucouchdb</code></b> is proudly brought to you by the following hackers:
