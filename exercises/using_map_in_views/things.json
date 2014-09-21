@@ -1,0 +1,35 @@
+[{
+  "_id": "item-0",
+  "name": "shelf",
+  "material": "wood"
+},
+{
+  "_id": "item-1",
+  "name": "spoon",
+  "material": "metal"
+},
+{
+  "_id": "item-2",
+  "name": "saw",
+  "material": "metal"
+},
+{
+  "_id": "item-3",
+  "name": "fork",
+  "material": "metal"
+},
+{
+  "_id": "item-4",
+  "name": "lunchbox",
+  "material": "plastic"
+},
+{
+  "_id": "item-5",
+  "name": "lava lamp",
+  "material": "glass"
+},
+{
+  "_id": "item-6",
+  "name": "couchdb",
+  "material": "erlang"
+}]
