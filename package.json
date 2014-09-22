@@ -13,6 +13,11 @@
     "workshopper": "^1.0.0",
     "workshopper-exercise": "^0.2.2"
   },
+  "bundleDependencies": [
+    "request",
+    "workshopper",
+    "workshopper-exercise"
+  ],
   "bin": "./learnyoucouchdb.js",
   "preferGlobal": true
 }
