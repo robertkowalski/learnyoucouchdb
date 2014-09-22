@@ -5,7 +5,7 @@ the things which have the material `metal`.
 
 The database was already created by this exercise in your CouchDB.
 
-The database is located at `http://localhost:5894/things-learn-couchdb`
+The database is located at `http://localhost:5984/things-learn-couchdb`
 and an example document in this database looks like:
 
 ```js
