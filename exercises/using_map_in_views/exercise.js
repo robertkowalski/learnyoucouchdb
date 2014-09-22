@@ -37,7 +37,7 @@ exercise.addVerifyProcessor(function (cb) {
   }
 })
 
-exercise.addSetup(function (mode, cb) {
+exercise.addPrepare(function (cb) {
   createDb(function () {
     populateDb(function () {
       process.nextTick(cb)
