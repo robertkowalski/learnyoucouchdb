@@ -22,6 +22,6 @@ views and much more are parts of learnyoucouchdb.
 
 ## License
 
-**learnyoucouchdb** is Copyright (c) Robert Kowalski [@robinson_k](https://twitter.com/robinson_k) and licenced under the BSD licence. See the included LICENSE file for more details.
+**learnyoucouchdb** is Copyright (c) Robert Kowalski [@robinson_k](https://twitter.com/robinson_k) and licenced under the MIT licence. See the included LICENSE file for more details.
 
 **learnyoucouchdb** builds on the awesome work by [rvagg](https://github.com/rvagg) who created **[workshopper](https://github.com/rvagg/workshopper)** and **[learnyounode](https://github.com/rvagg/learnyounode)** which builds on the excellent work of [@substack](https://github.com/substack) and [@maxogden](https://github.com/maxogden) who created **[stream-adventure](https://github.com/substack/stream-adventure)** which serves as the original foundation for **learnyoucouchdb**.
