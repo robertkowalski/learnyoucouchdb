@@ -1,0 +1,32 @@
+[{
+  "_id": "language-0",
+  "name": "Erlang"
+},
+{
+  "_id": "language-1",
+  "name": "JavaScript"
+},
+{
+  "_id": "language-2",
+  "name": "Pascal"
+},
+{
+  "_id": "language-3",
+  "name": "C++"
+},
+{
+  "_id": "language-4",
+  "name": "Scala"
+},
+{
+  "_id": "language-5",
+  "name": "Clojure"
+},
+{
+  "_id": "language-6",
+  "name": "Ruby"
+},
+{
+  "_id": "language-7",
+  "name": "Python"
+}]

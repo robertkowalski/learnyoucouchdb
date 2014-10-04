@@ -1,6 +1,7 @@
 var exercise = require("workshopper-exercise")(),
     request = require("request"),
-    fixtures = require("./things.json")
+    things = require("./things.json"),
+    common = require("../../lib/common.js")
 
 
 exercise.requireSubmission = false
@@ -25,6 +26,12 @@ exercise.addVerifyProcessor(function (cb) {
       this.emit("fail", "View does not have 3 elements")
     }
     for (var i = 0; i < rows.length; i++) {
+      if (!rows[i].value.material) {
+        this.emit("fail", "The value field should contain things with a material")
+        isOk = false
+        break
+      }
+
       if (rows[i].value.material !== "metal") {
         this.emit("fail", "Wrong element material in listed in view")
         isOk = false
@@ -38,38 +45,11 @@ exercise.addVerifyProcessor(function (cb) {
 })
 
 exercise.addPrepare(function (cb) {
-  createDb(function () {
-    populateDb(function () {
+  common.createDb("things-learn-couchdb", function () {
+    common.populateDb("things-learn-couchdb", things, function () {
       process.nextTick(cb)
     })
   })
 })
-
-function createDb (cb) {
-  request({
-    uri: "http://localhost:5984/things-learn-couchdb/",
-    method: 'PUT',
-    json: true
-  }, function (err, res, body) {
-    if (err) throw err
-
-    cb && cb()
-  })
-}
-
-function populateDb (cb) {
-  request({
-    uri: "http://localhost:5984/things-learn-couchdb/_bulk_docs",
-    method: 'POST',
-    json: true,
-    body: {
-      docs: fixtures
-    }
-  }, function (err, res, body) {
-    if (err) throw err
-
-    cb && cb()
-  })
-}
 
 module.exports = exercise
