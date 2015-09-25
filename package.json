@@ -9,9 +9,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "request": "~2.42.0",
-    "workshopper": "^1.0.0",
-    "workshopper-exercise": "^0.2.2"
+    "request": "2.42.0",
+    "workshopper": "1.4.1",
+    "workshopper-exercise": "0.2.3"
   },
   "bundleDependencies": [
     "request",
