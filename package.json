@@ -11,7 +11,7 @@
   "dependencies": {
     "request": "~2.42.0",
     "workshopper": "^1.0.0",
-    "workshopper-exercise": "^0.2.2"
+    "workshopper-exercise": "^2.6.0"
   },
   "bundleDependencies": [
     "request",
